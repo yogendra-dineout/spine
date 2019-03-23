@@ -1,4 +1,4 @@
 {
-  "env": "production1",
+  "env": "production",
   "application":"nodejs"
 }
