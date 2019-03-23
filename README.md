@@ -1,4 +1,4 @@
 # dineout-config
-```yogendra.singh@dineout.co.in``` \n
-Dineout config \n
+```yogendra.singh@dineout.co.in```
+Dineout config.
 The chief support of dineout system.
