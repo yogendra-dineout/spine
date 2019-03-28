@@ -1,3 +1,3 @@
 configuration
-  server: 'localhost:8888'
-  host: 'localhost'
+  server: localhost:8888
+  host: localhost
