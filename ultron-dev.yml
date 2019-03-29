@@ -1,4 +1,6 @@
 martin:
      name: Martin D'vloper
-     job: Developer
+     job:
+         name: Developer
+         title: SDE
      skill: Elite
