@@ -1,5 +1,5 @@
 dineoutConfig: >
-      [{
+   [{
      "mainBanner": 10,
      "popularRestaurant": 3,
      "popularRestaurantWeb": 4,
@@ -16,48 +16,4 @@ dineoutConfig: >
      "predictBannerIndex":2,
      "freeSubscriptionOnOff":false,
      "showQsrSection":true,
-     "section_2": {
-       "0": [{
-         "deepLink": "dineout://s?sortby=distanceASC",
-         "url": "delhi-restaurants",
-         "imgPath": "images/uploads/misc/2017/Nov/7/Nearby.png",
-         "text": "Near Me"
-       }, {
-         "deepLink": "dineout://s?tag=Dineout Pay",
-         "url":"delhi-restaurants/dineout-pay",
-         "imgPath": "images/uploads/misc/2017/Nov/7/smatpay.png",
-         "text": "Dineout Pay"
-       }, {
-         "deepLink": "dineout://s?tag=Hot Offers",
-         "url":"delhi-restaurants/hot-offers",
-         "imgPath": "images/uploads/misc/2017/Oct/24/hot_offers.png",
-         "text": "Hot offers"
-       }, {
-         "deepLink": "dineout://s?tag=5 Star",
-         "url":"delhi-restaurants/5-star",
-         "imgPath": "images/uploads/misc/2017/Dec/14/luxury2.png",
-         "text": "5 Star Dining"
-       }],
-       "1": [{
-         "deepLink": "dineout://s?sortby=distanceASC",
-         "url":"mumbai-restaurants",
-         "imgPath": "images/uploads/misc/2017/Nov/7/Nearby.png",
-         "text": "Near Me"
-       }, {
-         "deepLink": "dineout://s?t=Dineout Pay",
-         "url":"mumbai-restaurants/dineout-pay",
-         "imgPath": "images/uploads/misc/2017/Nov/7/smatpay.png",
-         "text": "Dineout Pay"
-       }, {
-         "deepLink": "dineout://s?t=Hot Offers",
-         "url":"mumbai-restaurants/hot-offers",
-         "imgPath": "images/uploads/misc/2017/Oct/24/hot_offers.png",
-         "text": "Hot offers"
-       }, {
-         "deepLink": "dineout://s?t=5 Star",
-         "url":"mumbai-restaurants/5-star",
-         "imgPath": "images/uploads/misc/2017/Dec/14/luxury2.png",
-         "text": "5 Star Dining"
-       }]
-      }
    }]
