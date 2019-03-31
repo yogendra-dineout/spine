@@ -1,3 +1,4 @@
 dineoutConfig: >
-   {"name": "yogendra",
-   }
+   [{
+   "name": "yogendra",
+   }]
