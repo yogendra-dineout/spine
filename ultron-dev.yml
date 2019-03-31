@@ -1,0 +1,3 @@
+portslist: >
+  [{"name":"ob1","port_num":0,"port_type":"network"},
+  {"name":"ob2","port_num":1, "port_type":"N"}]
