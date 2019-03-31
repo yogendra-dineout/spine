@@ -1,7 +1,4 @@
 dineoutConfig: >
    {
-    "name": "yogendra",
-    "Skill": "Full stack Developer",
-    "JD": "14 Jan, 2019",
-    "address": "a"
+    "name": "yogendra"
   }
