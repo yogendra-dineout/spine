@@ -1,18 +1,2410 @@
 dineoutConfig: >
-   {
-   "name": "yogendra",
-   "Skill": "Full stack Developer",
-    "JD": "14 Jan, 2019",
-    "address": [
+   [{
+
+  "mainBanner": 10,
+  "popularRestaurant": 3,
+  "popularRestaurantWeb": 4,
+  "recommendRestaurant": 3,
+  "recommendRestaurantWeb": 4,
+  "popularGpRestaurant": 5,
+  "redeemedRestaurant":9,
+  "collectionCardLimit": 6,
+  "collectionCardLimitEven": 8,
+  "sponseredCollectionCardLimit": 9,
+  "signInIndex": 8,
+  "bannerUpdatedDataIndex":2,
+  "freeSubscriptionIndex":3,
+  "predictBannerIndex":2,
+  "freeSubscriptionOnOff":false,
+  "showQsrSection":true,
+
+  "section_2": {
+    "0": [{
+      "deepLink": "dineout://s?sortby=distanceASC",
+      "url": "delhi-restaurants",
+      "imgPath": "images/uploads/misc/2017/Nov/7/Nearby.png",
+      "text": "Near Me"
+    }, {
+      "deepLink": "dineout://s?tag=Dineout Pay",
+      "url":"delhi-restaurants/dineout-pay",
+      "imgPath": "images/uploads/misc/2017/Nov/7/smatpay.png",
+      "text": "Dineout Pay"
+    }, {
+      "deepLink": "dineout://s?tag=Hot Offers",
+      "url":"delhi-restaurants/hot-offers",
+      "imgPath": "images/uploads/misc/2017/Oct/24/hot_offers.png",
+      "text": "Hot offers"
+    }, {
+      "deepLink": "dineout://s?tag=5 Star",
+      "url":"delhi-restaurants/5-star",
+      "imgPath": "images/uploads/misc/2017/Dec/14/luxury2.png",
+      "text": "5 Star Dining"
+    }],
+
+    "1": [{
+      "deepLink": "dineout://s?sortby=distanceASC",
+      "url":"mumbai-restaurants",
+      "imgPath": "images/uploads/misc/2017/Nov/7/Nearby.png",
+      "text": "Near Me"
+    }, {
+      "deepLink": "dineout://s?t=Dineout Pay",
+      "url":"mumbai-restaurants/dineout-pay",
+      "imgPath": "images/uploads/misc/2017/Nov/7/smatpay.png",
+      "text": "Dineout Pay"
+    }, {
+      "deepLink": "dineout://s?t=Hot Offers",
+      "url":"mumbai-restaurants/hot-offers",
+      "imgPath": "images/uploads/misc/2017/Oct/24/hot_offers.png",
+      "text": "Hot offers"
+    }, {
+      "deepLink": "dineout://s?t=5 Star",
+      "url":"mumbai-restaurants/5-star",
+      "imgPath": "images/uploads/misc/2017/Dec/14/luxury2.png",
+      "text": "5 Star Dining"
+    }],
+    "2": [{
+      "deepLink": "dineout://s?sortby=distanceASC",
+      "url":"bangalore-restaurants",
+      "imgPath": "images/uploads/misc/2017/Nov/7/Nearby.png",
+      "text": "Near Me"
+    }, {
+      "deepLink": "dineout://s?t=Dineout Pay",
+      "url":"bangalore-restaurants/dineout-pay",
+      "imgPath": "images/uploads/misc/2017/Nov/7/smatpay.png",
+      "text": "Dineout Pay"
+    }, {
+      "deepLink": "dineout://s?t=Hot Offers",
+      "url":"bangalore-restaurants/hot-offers",
+      "imgPath": "images/uploads/misc/2017/Oct/24/hot_offers.png",
+      "text": "Hot offers"
+    }, {
+      "deepLink": "dineout://s?t=5 Star",
+      "url":"bangalore-restaurants/5-star",
+      "imgPath": "images/uploads/misc/2017/Dec/14/luxury2.png",
+      "text": "5 Star Dining"
+    }],
+    "3": [{
+      "deepLink": "dineout://s?sortby=distanceASC",
+      "url":"chennai-restaurants",
+      "imgPath": "images/uploads/misc/2017/Nov/7/Nearby.png",
+      "text": "Near Me"
+    }, {
+      "deepLink": "dineout://s?t=Dineout Pay",
+      "url":"chennai-restaurants/dineout-pay",
+      "imgPath": "images/uploads/misc/2017/Nov/7/smatpay.png",
+      "text": "Dineout Pay"
+    }, {
+      "deepLink": "dineout://s?t=Hot Offers",
+      "url":"chennai-restaurants/hot-offers",
+      "imgPath": "images/uploads/misc/2017/Oct/24/hot_offers.png",
+      "text": "Hot offers"
+    }, {
+      "deepLink": "dineout://s?t=5 Star",
+      "url":"chennai-restaurants/5-star",
+      "imgPath": "images/uploads/misc/2017/Dec/14/luxury2.png",
+      "text": "5 Star Dining"
+    }],
+    "4": [{
+      "deepLink": "dineout://s?sortby=distanceASC",
+      "url":"hyderabad-restaurants",
+      "imgPath": "images/uploads/misc/2017/Nov/7/Nearby.png",
+      "text": "Near Me"
+    }, {
+      "deepLink": "dineout://s?t=Dineout Pay",
+      "url":"hyderabad-restaurants/dineout-pay",
+      "imgPath": "images/uploads/misc/2017/Nov/7/smatpay.png",
+      "text": "Dineout Pay"
+    }, {
+      "deepLink": "dineout://s?t=Hot Offers",
+      "url":"hyderabad-restaurants/hot-offers",
+      "imgPath": "images/uploads/misc/2017/Oct/24/hot_offers.png",
+      "text": "Hot offers"
+    }, {
+      "deepLink": "dineout://s?t=5 Star",
+      "url":"hyderabad-restaurants/5-star",
+      "imgPath": "images/uploads/misc/2017/Dec/14/luxury2.png",
+      "text": "5 Star Dining"
+    }],
+    "5": [{
+      "deepLink": "dineout://s?sortby=distanceASC",
+      "url":"pune-restaurants",
+      "imgPath": "images/uploads/misc/2017/Nov/7/Nearby.png",
+      "text": "Near Me"
+    }, {
+      "deepLink": "dineout://s?t=Dineout Pay",
+      "url":"pune-restaurants/dineout-pay",
+      "imgPath": "images/uploads/misc/2017/Nov/7/smatpay.png",
+      "text": "Dineout Pay"
+    }, {
+      "deepLink": "dineout://s?t=Hot Offers",
+      "url":"pune-restaurants/hot-offers",
+      "imgPath": "images/uploads/misc/2017/Oct/24/hot_offers.png",
+      "text": "Hot offers"
+    }, {
+      "deepLink": "dineout://s?t=5 Star",
+      "url":"pune-restaurants/5-star",
+      "imgPath": "images/uploads/misc/2017/Dec/14/luxury2.png",
+      "text": "5 Star Dining"
+    }],
+    "6": [{
+      "deepLink": "dineout://s?sortby=distanceASC",
+      "url":"kolkata-restaurants",
+      "imgPath": "images/uploads/misc/2017/Nov/7/Nearby.png",
+      "text": "Near Me"
+    }, {
+      "deepLink": "dineout://s?t=Dineout Pay",
+      "url":"kolkata-restaurants/dineout-pay",
+      "imgPath": "images/uploads/misc/2017/Nov/7/smatpay.png",
+      "text": "Dineout Pay"
+    }, {
+      "deepLink": "dineout://s?t=Hot Offers",
+       "url":"kolkata-restaurants/hot-offers",
+      "imgPath": "images/uploads/misc/2017/Oct/24/hot_offers.png",
+      "text": "Hot offers"
+    }, {
+      "deepLink": "dineout://s?t=5 Star",
+       "url":"kolkata-restaurants/5-star",
+      "imgPath": "images/uploads/misc/2017/Dec/14/luxury2.png",
+      "text": "5 Star Dining"
+    }],
+    "7": [{
+      "deepLink": "dineout://s?sortby=distanceASC",
+      "url":"ahemdabad-restaurants",
+      "imgPath": "images/uploads/misc/2017/Nov/7/Nearby.png",
+      "text": "Near Me"
+    }, {
+      "deepLink": "dineout://s?t=Dineout Pay",
+       "url":"ahemdabad-restaurants/dineout-pay",
+      "imgPath": "images/uploads/misc/2017/Nov/7/smatpay.png",
+      "text": "Dineout Pay"
+    }, {
+      "deepLink": "dineout://s?t=Hot Offers",
+       "url":"ahemdabad-restaurants/hot-offers",
+      "imgPath": "images/uploads/misc/2017/Oct/24/hot_offers.png",
+      "text": "Hot offers"
+    }, {
+      "deepLink": "dineout://s?t=5 Star",
+       "url":"ahemdabad-restaurants/5-star",
+      "imgPath": "images/uploads/misc/2017/Dec/14/luxury2.png",
+      "text": "5 Star Dining"
+    }],
+    "8":[{
+      "deepLink": "dineout://s?sortby=distanceASC",
+      "imgPath": "images/uploads/misc/2017/Nov/7/Nearby.png",
+      "text": "Near Me"
+    }, {
+      "deepLink": "dineout://s?t=Dineout Pay",
+      "imgPath": "images/uploads/misc/2017/Nov/7/smatpay.png",
+      "text": "Dineout Pay"
+    }, {
+      "deepLink": "dineout://s?t=Hot Offers",
+      "imgPath": "images/uploads/misc/2017/Oct/24/hot_offers.png",
+      "text": "Hot offers"
+    }, {
+      "deepLink": "dineout://s?t=5 Star",
+      "imgPath": "images/uploads/misc/2017/Dec/14/luxury2.png",
+      "text": "5 Star Dining"
+    }],
+    "9": [{
+      "deepLink": "dineout://s?sortby=distanceASC",
+      "url":"chandigarh-restaurants",
+      "imgPath": "images/uploads/misc/2017/Nov/7/Nearby.png",
+      "text": "Near Me"
+    }, {
+      "deepLink": "dineout://s?t=Dineout Pay",
+       "url":"chandigarh-restaurants/dineout-pay",
+      "imgPath": "images/uploads/misc/2017/Nov/7/smatpay.png",
+      "text": "Dineout Pay"
+    }, {
+      "deepLink": "dineout://s?t=Hot Offers",
+       "url":"chandigarh-restaurants/hot-offers",
+      "imgPath": "images/uploads/misc/2017/Oct/24/hot_offers.png",
+      "text": "Hot offers"
+    }, {
+      "deepLink": "dineout://s?t=5 Star",
+       "url":"chandigarh-restaurants/5-star",
+      "imgPath": "images/uploads/misc/2017/Dec/14/luxury2.png",
+      "text": "5 Star Dining"
+    }]
+  },
+  "signimgUrl": "images/uploads/misc/2017/Oct/16/signin_image_updated.jpg",
+  "signUpNew":"images/uploads/misc/2017/Oct/16/signin_image_updated.jpg",
+  "signInBanner": {
+    "deeplink": "dineout://signin",
+    "isValidateCaching": true
+  },
+  "freeTrial": {
+    "imgUrl":"http://im1.dineout.co.in/images/uploads/misc/2017/Dec/20/free_trial_banner.png",
+    "bannerType": "freeSubscription",
+    "isValidateCaching": true
+  },
+   "freeLoginTrial": {
+    "imgUrl":"http://im1.dineout.co.in/images/uploads/misc/2017/Dec/20/free_trial_banner.png",
+    "bannerType": "small",
+    "deeplink":"dineout://web?title=Gourmet Passport&link=https://www.dineout.co.in/gpfreetrial",
+    "isValidateCaching": true
+  },
+
+  "selectedTab": [
+    {
+      "tabType": "web_view",
+      "url": "nodeApi/v18/homePage/getHomePage",
+      "displayName": "GIRF",
+      "type": "girf",
+      "isValidateCaching": "true"
+    },
+  {
+      "tabType": "native",
+      "url": "nodeApi/v18/homePage/getHomePage",
+      "displayName": "Explore",
+      "type": "explore",
+      "isValidateCaching": "true"
+    }
+  ],
+   "redis":{
+    "homePagePrefix":"homePage",
+    "bannerPrefix": "banner",
+    "bannerExpire": 7500,
+    "popularNearPrefix": "popularNearBy",
+    "popularNearExpire": 28800,
+    "SectionOrderPrefix": "SectionOrder",
+    "SectionOrderExpire": 28800,
+    "dynamicBannerPrefix": "dynamicBanner",
+    "dynamicBannerExpire": 7500,
+    "tagCollectionPrefix": "tagCollection",
+    "tagCollectionExpire": 28800,
+    "sponseredCollectionPrefix": "sponseredCollectionWithConcatImages",
+    "sponseredCollectionExpire": 28800,
+    "CuisineCollectionPrefix": "CuisineCollection",
+    "CuisineCollectionExpire": 28800,
+    "locationCollectionPrefix": "locationCollection",
+    "locationCollectionExpire": 28800,
+    "reedemedCollectionPrefix": "reedemedCollection",
+    "reedemedCollectionExpire": 28800,
+    "GpPricePrefix":"GpPrice",
+    "GpPriceExpire":28800,
+    "gpRestaurantCountPrefix":"gpRestaurantCount",
+    "gpRestaurantCountExpire": 864001
+  },
+  "locationId":{
+    "Nehru Place" :40,"MG Road" :76,"Civil Lines" :23,"Rajouri Garden"  :25,"Punjabi Bagh"  :26,"Connaught Place" :16,"MG Road" :44,"DLF Cyber City"  :46,"Sector 29" :140,"Sector 18"  :34,"Fort"  :295,"MG Road"  :378,"Jayanagar"  :392,"JP Nagar" :393,"Koramangala"  :394,"Sarjapur Road"  :396,"Indiranagar"  :408,"Marathahalli" :409,"Whitefield" :411,"Nungambakkam" :489,"Adyar"  :515,"East Coast Road"  :521,"Thuraipakkam" :560,"Thyagaraya Nagar" :561,"Velachery"  :563,"Anna Nagar" :570,"Vadapalani" :588,"Banjara Hills"  :594,"Begumpet" :596,"Hitech City"  :598,"Jubilee Hills"  :599,"Necklace Road"  :604,"MG Road"  :653,"Gachibowli" :687,"Kondapur" :688,"Madhapur" :691,"MG Road"  :700,"Deccan Gymkhana"  :780,"Hadapsar" :715,"Kalyani Nagar"  :716,"Koregaon Park"  :718,"Viman Nagar"  :723,"Wakad"  :711,"Baner"  :776,"Kothrud"  :785,"Navrangpura"  :1855,"Bodakdev"  :1869,"Gurukul" :1871,"Vasna" :1878,"Ambawadi"  :1895,"Prahlad Nagar" :1914,"Park Street" :2212,"Camac Street"  :2224,"Kankurgachhi"  :2215,"Salt Lake" :2218,"Topsia"  :2295,"Ballygunge"  :2222,"Elgin Road"  :2225,"JBS Haldane Avenue"  :2246,"Law Garden"  :1854,"Paldi" :1856,"Lower Parel" :300,"Andheri East" :317,"Powai"  :355,"Bandra East"  :318,"Bandra West"  :319,"Andheri West" :316,"Juhu" :328,"Sector 7":1938,"Sector 26":1741,"Sector 10":1950,"Mohali":1958,"Panchkula":1982,"Industrial Area Phase 1":1955,"Margao":2022,"Panjim":2038,"Calangute":2036,"Baga":2041,"Anjuna":2043,"Salcette":2568,"Malviya Nagar":2112,"Tonk Road":2128,"C Scheme":2097,"Vaishali Nagar":2130,"Raja Park":2118
+  },
+  "GpSection2": {
+   "gpBuyInfo": [{
+     "title": "What is Gourmet Passport?",
+     "img": "https://im1.dineout.co.in/images/uploads/misc/2018/Mar/20/whatisgp.png",
+     "subtitle": "Gourmet Passport is a membership pack that allows to you get 1+1 offers on main course,drinks and buffets at 250+restaurants."
+   }, {
+     "title": "Do I have to pay anything?",
+     "img": "https://im1.dineout.co.in/images/uploads/misc/2018/Mar/20/doipay.png",
+     "subtitle": "Yes, Gourmet Passport is available for an effective price of Rs. 499." 
+   },{
+     "title": "How many times can I use Gourmet Passport?",
+     "img": "https://im1.dineout.co.in/images/uploads/misc/2018/Mar/20/howmanytimes.png",
+     "subtitle": "You can avail each offer 3 times at a restaurant. For example, if a restaurant offers 1+1 on both main course & drinks, you get 3 main course dishes & 3 drinks for free with your membership. This means over 700 free items with every purchase!"
+   } ,{
+     "title": "How does it work?",
+     "img": "https://im1.dineout.co.in/images/uploads/misc/2018/Mar/20/howitworks.png",
+     "subtitle": "No reservation and prior intimation required. Simply walk-in to a Gourmet Passport restaurant and redeem your coupons."
+   }]
+ },
+   
+  "gpPartner": {
+    "headerText": "Partner Hotels",
+    "subTitle": "Get Gourmet Passport at top 5-Star Hotels",
+    "images": [{
+      "imgUrl": "images/uploads/misc/2017/Nov/14/carlson_rezidor_logo.png?w=400"
+    },{
+     
+      "imgUrl": "images/uploads/misc/2017/Nov/14/logo_12.png?w=400"
+    }, {
+      
+      "imgUrl": "images/uploads/misc/2017/Nov/14/marriott_hotels_logo_14_svg.png?w=400"
+    }, {
+      
+      "imgUrl": "images/uploads/misc/2017/Nov/14/taj.png?w=400"
+    }, {
+      
+      "imgUrl": "images/uploads/misc/2017/Nov/14/the_park_hotels.png?w=400"
+    }]
+  },
+  "gpGirfPartner": {
+    "headerText": "Partner Chains",
+    "subTitle": "The best restaurants particpating in GIRF",
+    "images": [{
+      "imgUrl": "images/uploads/misc/2017/Nov/14/carlson_rezidor_logo.png?w=400"
+    },{
+     
+      "imgUrl": "images/uploads/misc/2017/Nov/14/logo_12.png?w=400"
+    }, {
+      
+      "imgUrl": "images/uploads/misc/2017/Nov/14/marriott_hotels_logo_14_svg.png?w=400"
+    }, {
+      
+      "imgUrl": "images/uploads/misc/2017/Nov/14/taj.png?w=400"
+    }, {
+      
+      "imgUrl": "images/uploads/misc/2017/Nov/14/the_park_hotels.png?w=400"
+    }]
+  },
+  "gpConfig":{
+    "cityList": ["Delhi", "Mumbai", "Bangalore","Hyderabad","Pune","Kolkata","Ahmedabad"]
+  },
+  "GpSectionWork": {
+    "title": "How it works",
+    "subTitle": "Here'''s how you can use your Gourmet Passport ",
+    "buyInfo": [ {
+      "title": "Dine",
+      "selectedImg": "https://st4.dineout.co.in/images/uploads/misc/2017/Jan/22/veg.jpg?w=400",
+      "unSelectedImg": "https://st4.dineout.co.in/images/uploads/misc/2017/Jan/22/veg.jpg?w=400",
+      "selectedText": "Get your Gourmet Passport having 750+ coupons for 250 restaurants",
+      "isSelected": 1
+    }, {
+      "title": "Redeem",
+      "selectedImg": "https://st4.dineout.co.in/images/uploads/misc/2017/Jan/22/veg.jpg?w=400",
+      "unSelectedImg": "https://st4.dineout.co.in/images/uploads/misc/2017/Jan/22/veg.jpg?w=400",
+      "selectedText": "Get your Gourmet Passport having  750+ coupons for 250 restaurants",
+      "isSelected": 0
+    }],
+    "footer": {
+      "title":"Rule of use",
+      "deeplink":"dineout://s?t=Buffet"
+    }
+  },
+  "ab1":[ { "sectionKey": "banner", "sectionType": "banner" },
+          { "sectionKey": "section_2", "sectionType": "horizontal_section" },
+          { "sectionKey": "smartPay", "sectionType": "vertical_section" },
+          { "sectionKey": "sponsoredData"," sectionType": "grid_2" },
+          { "sectionKey": "popularNearBy", "sectionType": "vertical_section" },
+          { "sectionKey": "popularLocation", "sectionType": "grid_1" },
+          { "sectionKey": "popularCuisine", "sectionType": "grid_1" },
+          { "sectionKey": "popularFeatureCollection", "sectionType": "grid_1" },
+          { "sectionKey": "reviewBox", "sectionType": "inline" }
+        ],
+  "ab2":[ { "sectionKey": "banner", "sectionType": "banner" },
+        {  "sectionKey": "section_2", "sectionType": "horizontal_section" },
+        { "sectionKey": "popularLocation", "sectionType": "grid_1" },
+        { "sectionKey": "sponsoredData", "sectionType": "grid_2" },
+        { "sectionKey": "popularNearBy", "sectionType": "vertical_section" },
+        { "sectionKey": "smartPay", "sectionType": "vertical_section" },
+        { "sectionKey": "popularCuisine", "sectionType": "grid_1" },
+        { "sectionKey": "popularFeatureCollection", "sectionType": "grid_1" },
+        { "sectionKey": "reviewBox", "sectionType": "inline" }
+      ],
+  "sameAreaLoc": [{
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 38",
+      "ar_locId": 1753
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 38",
+      "ar_locId": 1754
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 29",
+      "ar_locId": 219
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 29",
+      "ar_locId": 140
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 83",
+      "ar_locId": 242
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 83",
+      "ar_locId": 2500
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 66",
+      "ar_locId": 1772
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 66",
+      "ar_locId": 2464
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 72",
+      "ar_locId": 1773
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 72",
+      "ar_locId": 2504
+    },{
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 49",
+      "ar_locId": 240
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 49",
+      "ar_locId": 472
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 10",
+      "ar_locId": 1723
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 10",
+      "ar_locId": 1724
+    }, {
+      "city_id": 9,
+      "ar_areaName": "North Chandigarh",
+      "ar_areaId": 49,
+      "ar_locality": "Sector 10",
+      "ar_locId": 1950
+    },{
+      "city_id": 0,
+      "ar_areaName": "North Delhi",
+      "ar_areaId": 3,
+      "ar_locality": "Civil Lines",
+      "ar_locId": 23
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Civil Lines",
+      "ar_locId": 1661
+    }, {
+      "city_id": 0,
+      "ar_areaName": "South Delhi",
+      "ar_areaId": 1,
+      "ar_locality": "Chanakyapuri",
+      "ar_locId": 17
+    }, {
+      "city_id": 0,
+      "ar_areaName": "South Delhi",
+      "ar_areaId": 1,
+      "ar_locality": "Malviya Nagar",
+      "ar_locId": 51
+    }, {
+      "city_id": 0,
+      "ar_areaName": "South Delhi",
+      "ar_areaId": 1,
+      "ar_locality": "Vasant Vihar",
+      "ar_locId": 56
+    }, {
+      "city_id": 0,
+      "ar_areaName": "South Delhi",
+      "ar_areaId": 1,
+      "ar_locality": "MG Road",
+      "ar_locId": 76
+    }, {
+      "city_id": 0,
+      "ar_areaName": "South Delhi",
+      "ar_areaId": 1,
+      "ar_locality": "Aaya Nagar",
+      "ar_locId": 1645
+    }, {
+      "city_id": 0,
+      "ar_areaName": "South Delhi",
+      "ar_areaId": 1,
+      "ar_locality": "Khanpur",
+      "ar_locId": 1687
+    }, {
+      "city_id": 0,
+      "ar_areaName": "East Delhi",
+      "ar_areaId": 2,
+      "ar_locality": "Krishna Nagar",
+      "ar_locId": 200
+    }, {
+      "city_id": 0,
+      "ar_areaName": "East Delhi",
+      "ar_areaId": 2,
+      "ar_locality": "Chander Nagar",
+      "ar_locId": 207
+    }, {
+      "city_id": 0,
+      "ar_areaName": "North Delhi",
+      "ar_areaId": 3,
+      "ar_locality": "Civil Lines",
+      "ar_locId": 23
+    }, {
+      "city_id": 0,
+      "ar_areaName": "North Delhi",
+      "ar_areaId": 3,
+      "ar_locality": "Vijay Nagar",
+      "ar_locId": 121
+    }, {
+      "city_id": 0,
+      "ar_areaName": "North Delhi",
+      "ar_areaId": 3,
+      "ar_locality": "Adarsh Nagar",
+      "ar_locId": 1646
+    }, {
+      "city_id": 0,
+      "ar_areaName": "North Delhi",
+      "ar_areaId": 3,
+      "ar_locality": "Shastri Nagar",
+      "ar_locId": 1781
+    }, {
+      "city_id": 0,
+      "ar_areaName": "West Delhi",
+      "ar_areaId": 4,
+      "ar_locality": "Subhash Nagar",
+      "ar_locId": 48
+    }, {
+      "city_id": 0,
+      "ar_areaName": "West Delhi",
+      "ar_areaId": 4,
+      "ar_locality": "Tilak Nagar",
+      "ar_locId": 175
+    }, {
+      "city_id": 0,
+      "ar_areaName": "West Delhi",
+      "ar_areaId": 4,
+      "ar_locality": "Raj Nagar",
+      "ar_locId": 1710
+    }, {
+      "city_id": 0,
+      "ar_areaName": "West Delhi",
+      "ar_areaId": 4,
+      "ar_locality": "Patel Nagar",
+      "ar_locId": 1801
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Central Delhi",
+      "ar_areaId": 5,
+      "ar_locality": "Chandni Chowk",
+      "ar_locId": 111
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Central Delhi",
+      "ar_areaId": 5,
+      "ar_locality": "Sadar Bazar",
+      "ar_locId": 1717
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Ghaziabad",
+      "ar_areaId": 6,
+      "ar_locality": "Raj Nagar",
+      "ar_locId": 271
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Ghaziabad",
+      "ar_areaId": 6,
+      "ar_locality": "Chander Nagar",
+      "ar_locId": 274
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Ghaziabad",
+      "ar_areaId": 6,
+      "ar_locality": "Gandhi Nagar",
+      "ar_locId": 1667
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Ghaziabad",
+      "ar_areaId": 6,
+      "ar_locality": "Patel Nagar",
+      "ar_locId": 1706
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Ghaziabad",
+      "ar_areaId": 6,
+      "ar_locality": "Rajendra Nagar",
+      "ar_locId": 1711
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Ghaziabad",
+      "ar_areaId": 6,
+      "ar_locality": "Shastri Nagar",
+      "ar_locId": 1782
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Ghaziabad",
+      "ar_areaId": 6,
+      "ar_locality": "Vijay Nagar",
+      "ar_locId": 1788
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Ghaziabad",
+      "ar_areaId": 6,
+      "ar_locality": "Nehru Nagar",
+      "ar_locId": 2373
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "MG Road",
+      "ar_locId": 44
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 14",
+      "ar_locId": 135
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 29",
+      "ar_locId": 140
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 15",
+      "ar_locId": 141
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 31",
+      "ar_locId": 142
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 53",
+      "ar_locId": 143
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 56",
+      "ar_locId": 144
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 23",
+      "ar_locId": 147
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 39",
+      "ar_locId": 148
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 22",
+      "ar_locId": 149
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 50",
+      "ar_locId": 153
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 7",
+      "ar_locId": 154
+    },{
+      "city_id": 9,
+      "ar_areaName": "East Chandigarh",
+      "ar_areaId": 48,
+      "ar_locality": "Sector 7",
+      "ar_locId": 1938
+    },  {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 17",
+      "ar_locId": 157
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sadar Bazar",
+      "ar_locId": 158
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 44",
+      "ar_locId": 159
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 45",
+      "ar_locId": 160
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 43",
+      "ar_locId": 161
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 8",
+      "ar_locId": 163
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 12",
+      "ar_locId": 165
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 30",
+      "ar_locId": 468
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 49",
+      "ar_locId": 472
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 39",
+      "ar_locId": 1558
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Civil Lines",
+      "ar_locId": 1661
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "NH 8",
+      "ar_locId": 1703
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 10",
+      "ar_locId": 1724
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 26",
+      "ar_locId": 1741
+    },{
+      "city_id": 9,
+      "ar_areaName": "East Chandigarh",
+      "ar_areaId": 48,
+      "ar_locality": "Sector 26",
+      "ar_locId": 1936
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 3",
+      "ar_locId": 1743
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 32",
+      "ar_locId": 1747
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 33",
+      "ar_locId": 1748
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 37",
+      "ar_locId": 1752
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 38",
+      "ar_locId": 1754
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 40",
+      "ar_locId": 1756
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 46",
+      "ar_locId": 1759
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 46",
+      "ar_locId": 2468
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 47",
+      "ar_locId": 1760
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 48",
+      "ar_locId": 1762
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 51",
+      "ar_locId": 1765
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 52",
+      "ar_locId": 1766
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 6",
+      "ar_locId": 1770
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 21",
+      "ar_locId": 2347
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 11",
+      "ar_locId": 2366
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 55",
+      "ar_locId": 2388
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 60",
+      "ar_locId": 2419
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 18",
+      "ar_locId": 2438
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Gurgaon",
+      "ar_areaId": 7,
+      "ar_locality": "Sector 20",
+      "ar_locId": 2442
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 16",
+      "ar_locId": 30
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 18",
+      "ar_locId": 34
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 50",
+      "ar_locId": 213
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 61",
+      "ar_locId": 215
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 25",
+      "ar_locId": 216
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 15",
+      "ar_locId": 217
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 27",
+      "ar_locId": 218
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 29",
+      "ar_locId": 219
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 11",
+      "ar_locId": 223
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 44",
+      "ar_locId": 225
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 26",
+      "ar_locId": 226
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 41",
+      "ar_locId": 227
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 12",
+      "ar_locId": 229
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 55",
+      "ar_locId": 230
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 28",
+      "ar_locId": 232
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 51",
+      "ar_locId": 233
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 22",
+      "ar_locId": 234
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 7",
+      "ar_locId": 235
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 17",
+      "ar_locId": 238
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 37",
+      "ar_locId": 239
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 49",
+      "ar_locId": 240
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 53",
+      "ar_locId": 241
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 15",
+      "ar_locId": 1553
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 10",
+      "ar_locId": 1723
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 125",
+      "ar_locId": 1728
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 20",
+      "ar_locId": 1737
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 21",
+      "ar_locId": 1738
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 3",
+      "ar_locId": 1742
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 30",
+      "ar_locId": 1744
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 31",
+      "ar_locId": 1745
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 32",
+      "ar_locId": 1746
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 34",
+      "ar_locId": 1749
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 35",
+      "ar_locId": 1750
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 38",
+      "ar_locId": 1753
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 39",
+      "ar_locId": 1755
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 40",
+      "ar_locId": 1757
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 45",
+      "ar_locId": 1758
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 48",
+      "ar_locId": 1761
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 5",
+      "ar_locId": 1764
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 52",
+      "ar_locId": 1767
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 59",
+      "ar_locId": 1769
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 6",
+      "ar_locId": 1771
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 8",
+      "ar_locId": 1775
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 43",
+      "ar_locId": 2326
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Noida",
+      "ar_areaId": 8,
+      "ar_locality": "Sector 56",
+      "ar_locId": 2359
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Faridabad",
+      "ar_areaId": 9,
+      "ar_locality": "Sector 37",
+      "ar_locId": 33
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Faridabad",
+      "ar_areaId": 9,
+      "ar_locality": "Sector 12",
+      "ar_locId": 243
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Faridabad",
+      "ar_areaId": 9,
+      "ar_locality": "Sector 15",
+      "ar_locId": 244
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Faridabad",
+      "ar_areaId": 9,
+      "ar_locality": "Sector 16",
+      "ar_locId": 248
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Faridabad",
+      "ar_areaId": 9,
+      "ar_locality": "Sector 10",
+      "ar_locId": 249
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Faridabad",
+      "ar_areaId": 9,
+      "ar_locality": "Sector 31",
+      "ar_locId": 250
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Faridabad",
+      "ar_areaId": 9,
+      "ar_locality": "Sector 14",
+      "ar_locId": 254
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Faridabad",
+      "ar_areaId": 9,
+      "ar_locality": "Sector 19",
+      "ar_locId": 257
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Faridabad",
+      "ar_areaId": 9,
+      "ar_locality": "Sector 29",
+      "ar_locId": 258
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Faridabad",
+      "ar_areaId": 9,
+      "ar_locality": "Sector 34",
+      "ar_locId": 259
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Faridabad",
+      "ar_areaId": 9,
+      "ar_locality": "Sector 11",
+      "ar_locId": 260
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Faridabad",
+      "ar_areaId": 9,
+      "ar_locality": "Sector 28",
+      "ar_locId": 261
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Faridabad",
+      "ar_areaId": 9,
+      "ar_locality": "Sector 46",
+      "ar_locId": 262
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Faridabad",
+      "ar_areaId": 9,
+      "ar_locality": "Sector 7",
+      "ar_locId": 263
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Faridabad",
+      "ar_areaId": 9,
+      "ar_locality": "Sector 3",
+      "ar_locId": 264
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Faridabad",
+      "ar_areaId": 9,
+      "ar_locality": "Sector 20",
+      "ar_locId": 265
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Faridabad",
+      "ar_areaId": 9,
+      "ar_locality": "Sector 30",
+      "ar_locId": 266
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Faridabad",
+      "ar_areaId": 9,
+      "ar_locality": "Sector 9",
+      "ar_locId": 267
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Faridabad",
+      "ar_areaId": 9,
+      "ar_locality": "Sector 17",
+      "ar_locId": 1735
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Faridabad",
+      "ar_areaId": 9,
+      "ar_locality": "Sector 18",
+      "ar_locId": 1736
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Faridabad",
+      "ar_areaId": 9,
+      "ar_locality": "Sector 23",
+      "ar_locId": 1739
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Faridabad",
+      "ar_areaId": 9,
+      "ar_locality": "Sector 35",
+      "ar_locId": 1751
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Faridabad",
+      "ar_areaId": 9,
+      "ar_locality": "Sector 49",
+      "ar_locId": 1763
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Faridabad",
+      "ar_areaId": 9,
+      "ar_locality": "Sector 8",
+      "ar_locId": 1776
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Faridabad",
+      "ar_areaId": 9,
+      "ar_locality": "Sector 86",
+      "ar_locId": 2313
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Faridabad",
+      "ar_areaId": 9,
+      "ar_locality": "Sector 43",
+      "ar_locId": 2329
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Faridabad",
+      "ar_areaId": 9,
+      "ar_locality": "Sector 42",
+      "ar_locId": 2370
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Faridabad",
+      "ar_areaId": 9,
+      "ar_locality": "Sector 47",
+      "ar_locId": 2377
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Faridabad",
+      "ar_areaId": 9,
+      "ar_locality": "Sector 47",
+      "ar_locId": 2378
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Faridabad",
+      "ar_areaId": 9,
+      "ar_locality": "Sector 47",
+      "ar_locId": 2379
+    }, {
+      "city_id": 0,
+      "ar_areaName": "Faridabad",
+      "ar_areaId": 9,
+      "ar_locality": "Sector 32",
+      "ar_locId": 2444
+    }, {
+      "city_id": 1,
+      "ar_areaName": "Central Mumbai",
+      "ar_areaId": 12,
+      "ar_locality": "Vasant Vihar",
+      "ar_locId": 2323
+    }, {
+      "city_id": 1,
+      "ar_areaName": "Navi Mumbai",
+      "ar_areaId": 13,
+      "ar_locality": "Nerul",
+      "ar_locId": 366
+    }, {
+      "city_id": 1,
+      "ar_areaName": "Navi Mumbai",
+      "ar_areaId": 13,
+      "ar_locality": "Lonavala",
+      "ar_locId": 1811
+    }, {
+      "city_id": 1,
+      "ar_areaName": "North Western",
+      "ar_areaId": 140,
+      "ar_locality": "Adarsh Nagar",
+      "ar_locId": 314
+    }, {
+      "city_id": 2,
+      "ar_areaName": "Central Bangalore",
+      "ar_areaId": 15,
+      "ar_locality": "MG Road",
+      "ar_locId": 378
+    }, {
+      "city_id": 2,
+      "ar_areaName": "Central Bangalore",
+      "ar_areaId": 15,
+      "ar_locality": "Shivaji Nagar",
+      "ar_locId": 389
+    }, {
+      "city_id": 2,
+      "ar_areaName": "South Bangalore",
+      "ar_areaId": 16,
+      "ar_locality": "Ashok Nagar",
+      "ar_locId": 402
+    }, {
+      "city_id": 2,
+      "ar_areaName": "West Bangalore",
+      "ar_areaId": 19,
+      "ar_locality": "Vijay Nagar",
+      "ar_locId": 457
+    }, {
+      "city_id": 2,
+      "ar_areaName": "West Bangalore",
+      "ar_areaId": 19,
+      "ar_locality": "Gandhi Nagar",
+      "ar_locId": 459
+    }, {
+      "city_id": 3,
+      "ar_areaName": "West Chennai",
+      "ar_areaId": 25,
+      "ar_locality": "Ashok Nagar",
+      "ar_locId": 517
+    }, {
+      "city_id": 4,
+      "ar_areaName": "Secunderabad",
+      "ar_areaId": 29,
+      "ar_locality": "Sindhi Colony",
+      "ar_locId": 607
+    }, {
+      "city_id": 4,
+      "ar_areaName": "Secunderabad",
+      "ar_areaId": 29,
+      "ar_locality": "MG Road",
+      "ar_locId": 653
+    }, {
+      "city_id": 4,
+      "ar_areaName": "Secunderabad",
+      "ar_areaId": 29,
+      "ar_locality": "Sindhi Colony",
+      "ar_locId": 2425
+    }, {
+      "city_id": 4,
+      "ar_areaName": "Secunderabad",
+      "ar_areaId": 29,
+      "ar_locality": "Sindhi Colony",
+      "ar_locId": 2426
+    }, {
+      "city_id": 4,
+      "ar_areaName": "Secunderabad",
+      "ar_areaId": 29,
+      "ar_locality": "Shivaji Nagar",
+      "ar_locId": 2429
+    }, {
+      "city_id": 4,
+      "ar_areaName": "South Hyderabad",
+      "ar_areaId": 30,
+      "ar_locality": "Rajendra Nagar",
+      "ar_locId": 677
+    }, {
+      "city_id": 5,
+      "ar_areaName": "Central Pune",
+      "ar_areaId": 32,
+      "ar_locality": "MG Road",
+      "ar_locId": 700
+    }, {
+      "city_id": 5,
+      "ar_areaName": "Central Pune",
+      "ar_areaId": 32,
+      "ar_locality": "Shivaji Nagar",
+      "ar_locId": 708
+    }, {
+      "city_id": 5,
+      "ar_areaName": "North Pune",
+      "ar_areaId": 34,
+      "ar_locality": "Hinjewadi",
+      "ar_locId": 737
+    }, {
+      "city_id": 5,
+      "ar_areaName": "North Pune",
+      "ar_areaId": 34,
+      "ar_locality": "Lonavala",
+      "ar_locId": 1849
+    }, {
+      "city_id": 5,
+      "ar_areaName": "West Pune",
+      "ar_areaId": 36,
+      "ar_locality": "Hinjewadi",
+      "ar_locId": 2423
+    }, {
+      "city_id": 6,
+      "ar_areaName": "Central Kolkata",
+      "ar_areaId": 71,
+      "ar_locality": "Chandni Chowk",
+      "ar_locId": 2208
+    }, {
+      "city_id": 6,
+      "ar_areaName": "North Kolkata",
+      "ar_areaId": 73,
+      "ar_locality": "Jessore Road",
+      "ar_locId": 2251
+    }, {
+      "city_id": 6,
+      "ar_areaName": "24 Parganas North",
+      "ar_areaId": 78,
+      "ar_locality": "Jessore Road",
+      "ar_locId": 2363
+    }, {
+      "city_id": 7,
+      "ar_areaName": "West Ahmedabad",
+      "ar_areaId": 41,
+      "ar_locality": "Nehru Nagar",
+      "ar_locId": 1873
+    }, {
+      "city_id": 7,
+      "ar_areaName": "West Ahmedabad",
+      "ar_areaId": 41,
+      "ar_locality": "Chanakyapuri",
+      "ar_locId": 1930
+    }, {
+      "city_id": 7,
+      "ar_areaName": "Central Ahmedabad",
+      "ar_areaId": 94,
+      "ar_locality": "Khanpur",
+      "ar_locId": 1861
+    },{
+      "city_id": 10,
+      "ar_locality": "Raja Park",
+      "ar_areaName": "East Jaipur",
+      "ar_areaId": 61,
+      "ar_locId": 2118
+    },{
+      "city_id": 10,
+      "ar_locality": "Malviya Nagar",
+      "ar_areaName": "South Jaipur",
+      "ar_areaId": 63,
+      "ar_locId": 2112
+    },{
+      "city_id": 10,
+      "ar_locality": "Vaishali Nagar",
+      "ar_areaName": "West Jaipur",
+      "ar_areaId": 64,
+      "ar_locId": 2130
+    },{
+      "city_id": 10,
+      "ar_locality": "Vaishali Nagar",
+      "ar_areaName": "West Jaipur",
+      "ar_areaId": 64,
+      "ar_locId": 2130
+    },{
+      "city_id": 10,
+      "ar_locality": "C Scheme",
+      "ar_areaName": "Central Jaipur",
+      "ar_areaId": 65,
+      "ar_locId": 2097
+    },{
+      "city_id": 10,
+      "ar_locality": "Tonk Road",
+      "ar_areaName": "South Jaipur",
+      "ar_areaId": 63,
+      "ar_locId": 2128
+    }
+
+  ],
+   "signUpPopUp": {
+    "icon_url": "https://im1.dineout.co.in/images/uploads/misc/2018/Jan/26/refericon.png",
+     "title1":  "Sign up and get \u20B9200 ",
+     "title2": "Sign up now and get \u20B9200 to spend on dining. Hurry before the offer expires!",
+     "title3": "",
+     "cta1": {
+       "title": "May be later",
+       "deeplink": "",
+       "TextColor": "#d3d3d3"
+     },
+     "cta2": {
+       "title": "Signup Now",
+       "deeplink": "dineout://signin",
+       "TextColor": "#0077ff"
+     },
+     "isValidateCaching": true
+   },
+   "signUpCampaign":{
+    "endDate":"2019-03-11" ,
+    "signUpPopUp": {
+      "icon_url": "https://im1.dineout.co.in/images/uploads/misc/2018/Jan/26/refericon.png",
+      "title1":  "Sign up and get \u20B9500 ",
+      "title2": "Sign up now and get \u20B9500 to spend on dining. Hurry before the offer expires!",
+      "title3": "",
+      "cta1": {
+        "title": "May be later",
+        "deeplink": "",
+        "TextColor": "#d3d3d3"
+      },
+      "cta2": {
+        "title": "Signup Now",
+        "deeplink": "dineout://signin",
+        "TextColor": "#0077ff"
+      },
+      "isValidateCaching": true
+    }, 
+    "signUpImage":"http://im1.dineout.co.in/images/uploads/misc/2019/Jan/21/group_10.png"
+  },
+  "imgWidth":200,
+  "qsrSection": {
+    "headerText": "Popular Chains",
+    "subTitle": "Pay using Dineout and get 20% cashback" ,
+    "data": {
+      "delhi": [{
+        "title": "",
+        "imgUrl": "http://d3cvsmwrugbz2e.cloudfront.net/Group+10.png",
+        "deeplink": "dineout://s?chain=Chaayos",
+        "url": "https://www.dineout.co.in/delhi-restaurants/chaayos-in-delhi-chain",
+        "isValidateCaching": "false"
+      }, {
+        "title": "",
+        "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Oct/22/lotd_app_logo.png",
+        "deeplink": "dineout://s?chain=Lord of the Drinks",
+        "url": "https://www.dineout.co.in/delhi-restaurants/lord-of-the-drinks-in-delhi-chain",
+        "isValidateCaching": "false"
+      }, {
+        "title": "",
+        "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2019/Mar/19/popular_chain_chili.png",
+        "deeplink": "dineout://s?chain=Chili's American Grill and Bar",
+        "url": "https://www.dineout.co.in/delhi-restaurants/chilis-american-grill-and-bar-in-delhi-chain",
+        "isValidateCaching": "false"
+      } ],
+      "mumbai": [{
+        "title": "",
+        "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Sep/19/tvc.png",
+        "deeplink": "dineout://s?chain=Tea Villa cafe",
+        "url": "https://www.dineout.co.in/mumbai-restaurants/tea-villa-cafe-in-mumbai-chain",
+        "isValidateCaching": "false"
+      }, {
+        "title": "",
+        "imgUrl": "http://d3cvsmwrugbz2e.cloudfront.net/Group+9.png",
+        "deeplink": "dineout://s?chain=World Of Waffles",
+        "url": "https://www.dineout.co.in/mumbai-restaurants/world-of-waffles-in-mumbai-chain",
+        "isValidateCaching": "false"
+      }, {
+        "title": "",
+        "imgUrl": "http://d3cvsmwrugbz2e.cloudfront.net/Group+12.png",
+        "deeplink": "dineout://s?chain=Juno's Pizza",
+        "url": "https://www.dineout.co.in/mumbai-restaurants/junos-pizza-in-mumbai-chain",
+        "isValidateCaching": "false"
+      } ],
+      "bangalore": [{
+        "title": "",
+        "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Jul/16/rajdhani.jpg",
+        "deeplink": "dineout://s?chain=Khandani Rajdhani",
+        "url": "https://www.dineout.co.in/bangalore-restaurants/khandani-rajdhani-in-bangalore-chain",
+        "isValidateCaching": "false"
+      }, {
+        "title": "",
+        "imgUrl": "http://d3cvsmwrugbz2e.cloudfront.net/Group+3.png",
+        "deeplink": "dineout://s?chain=Chef Baker's",
+        "url": "https://www.dineout.co.in/bangalore-restaurants/chef-bakers-in-bangalore-chain",
+        "isValidateCaching": "false"
+      }, {
+        "title": "",
+        "imgUrl": "http://d3cvsmwrugbz2e.cloudfront.net/Group+11.png",
+        "deeplink": "dineout://s?chain=Empire Restaurant",
+        "url": "https://www.dineout.co.in/bangalore-restaurants/empire-restaurant-in-bangalore-chain",
+        "isValidateCaching": "false"
+      } ]
+    }
+  },
+  "popularSection": {
+    "headerText": "Popular Collections",
+    "subTitle": "Restaurant collections just for you",
+    "data": [{
+      "title": "Quick Bites",
+      "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Jan/31/qsr.png",
+      "deeplink": "dineout://web?title=GIRF2018&link=https://wwww.dineout.co.in/girf/delhi/all-deals?type=webview",
+      "url": "/girf/delhi/all-deals",
+      "isValidateCaching": "true"
+    }, {
+      "title": "Luxury Dining",
+      "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Jan/31/luxury_(1).png",
+      "deeplink": "dineout://web?title=GIRF2018&link=https://wwww.dineout.co.in/girf/delhi/all-deals?type=webview",
+      "url": "https://www.dineout.co.in/girf/home/delhi?hometype=girf&type=webview",
+      "isValidateCaching": "true"
+    }, {
+      "title": "Dineout Pay",
+      "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Jan/31/smartpay_(2).png",
+      "deeplink": "dineout://web?title=GIRF2018&link=https://wwww.dineout.co.in/girf/delhi/all-deals?type=webview",
+      "url": "https://www.dineout.co.in/girf/home/delhi?hometype=girf&type=webview",
+      "isValidateCaching": "true"
+    },{
+      "title": "Party Zones",
+      "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Feb/8/partyzone.png",
+      "deeplink": "dineout://web?title=GIRF2018&link=https://wwww.dineout.co.in/girf/delhi/all-deals?type=webview",
+      "url": "/girf/delhi/all-deals",
+      "isValidateCaching": "true"
+    },
+    {
+      "title": "Fantastic Food",
+      "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Feb/8/fantasticfood.png",
+      "deeplink": "dineout://web?title=GIRF2018&link=https://wwww.dineout.co.in/girf/delhi/all-deals?type=webview",
+      "url": "/girf/delhi/all-deals",
+      "isValidateCaching": "true"
+    },
+    {
+      "title": "Biggest Buffets",
+      "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Feb/8/biggestbuffets.png",
+      "deeplink": "dineout://web?title=GIRF2018&link=https://wwww.dineout.co.in/girf/delhi/all-deals?type=webview",
+      "url": "/girf/delhi/all-deals",
+      "isValidateCaching": "true"
+    },{
+      "title": "Family Friendly",
+      "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Feb/8/familyfriendly.png",
+      "deeplink": "dineout://web?title=GIRF2018&link=https://wwww.dineout.co.in/girf/delhi/all-deals?type=webview",
+      "url": "/girf/delhi/all-deals",
+      "isValidateCaching": "true"
+    },{
+      "title": "Asian Delights",
+      "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Feb/8/asiandelights.png",
+      "deeplink": "dineout://web?title=GIRF2018&link=https://wwww.dineout.co.in/girf/delhi/all-deals?type=webview",
+      "url": "/girf/delhi/all-deals",
+      "isValidateCaching": "true"
+    },{
+      "title": "Date Night",
+      "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Feb/8/datenight.png",
+      "deeplink": "dineout://web?title=GIRF2018&link=https://wwww.dineout.co.in/girf/delhi/all-deals?type=webview",
+      "url": "/girf/delhi/all-deals",
+      "isValidateCaching": "true"
+    },{
+      "title": "Local Favourites",
+      "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Feb/8/localfavourites.png",
+      "deeplink": "dineout://web?title=GIRF2018&link=https://wwww.dineout.co.in/girf/delhi/all-deals?type=webview",
+      "url": "/girf/delhi/all-deals",
+      "isValidateCaching": "true"
+    },{
+      "title": "Very Veggie",
+      "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Feb/8/veryveggie.png",
+      "deeplink": "dineout://web?title=GIRF2018&link=https://wwww.dineout.co.in/girf/delhi/all-deals?type=webview",
+      "url": "/girf/delhi/all-deals",
+      "isValidateCaching": "true"
+    }]
+  },
+
+"specialGpOffer": {
+  "headerText": "1+1 offers at top restaurants",
+  "subTitle": "with your Gourmet Passport membership",
+  "data": [
+
+    {
+      "cardName": "",
+      "count": "",
+      "deeplink": "dineout://s?gp_offer_types=Main Course&",
+      "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Apr/6/maincourse.jpg"
+    },
+
+    {
+      "cardName": "",
+      "count": "",
+      "deeplink": "dineout://s?gp_offer_types=Happy Hours&",
+      "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Apr/6/drinks.jpg"
+    },
+
+    {
+      "cardName": "",
+      "count": "",
+      "deeplink": "dineout://s?gp_offer_types=Buffet&",
+      "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Apr/6/buffet.jpg"
+    }
+
+  ]
+},
+"nonDrinkSpecialGpOffer": {
+  "headerText": "1+1 offers at top restaurants",
+  "subTitle": "with your Gourmet Passport membership",
+  "data": [
+
+    {
+      "cardName": "",
+      "count": "",
+      "deeplink": "dineout://s?gp_offer_types=Main Course&",
+      "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Apr/6/maincourse.jpg"
+    },
+    {
+      "cardName": "",
+      "count": "",
+      "deeplink": "dineout://s?gp_offer_types=Buffet&",
+      "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Apr/6/buffet.jpg"
+    }
+
+  ]
+},
+"specialGpOfferStreched": {
+  "headerText": "1+1 offers at top restaurants",
+  "subTitle": "with your Gourmet Passport membership",
+  "data": [
+    {
+      "cardName": "",
+      "count": "",
+      "deeplink": "dineout://s?gp_offer_types=Buffet&",
+      "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2019/Jan/9/buffet.jpg"
+    },
+    {
+      "cardName": "",
+      "count": "",
+      "deeplink": "dineout://s?tag=1 plus 1 on Food and Drinks&is_gp=true&sortby=distanceASC",
+      "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2019/Jan/9/food_drinks.jpg"
+    },
+    {
+      "cardName": "",
+      "count": "",
+      "deeplink": "dineout://s?gp_offer_types=Main Course&",
+      "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2019/Jan/9/maincourse.jpg"
+    },
+
+    {
+      "cardName": "",
+      "count": "",
+      "deeplink": "dineout://s?gp_offer_types=Happy Hours&",
+      "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2019/Jan/9/drinks.jpg"
+    }
+
+  ]
+},
+"nonDrinkspecialGpOfferStreched": {
+  "headerText": "1+1 offers at top restaurants",
+  "subTitle": "with your Gourmet Passport membership",
+  "data": [
+    {
+      "cardName": "",
+      "count": "",
+      "deeplink": "dineout://s?gp_offer_types=Buffet&",
+      "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2019/Jan/9/buffet.jpg"
+    },
+   
+    {
+      "cardName": "",
+      "count": "",
+      "deeplink": "dineout://s?gp_offer_types=Main Course&",
+      "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2019/Jan/9/maincourse.jpg"
+    }
+
+
+  ]
+},
+"footer": {
+    "imgUrl": "http://d3cvsmwrugbz2e.cloudfront.net/paw_entry.gif",
+    "type":"gif",
+    "popUp": {
+      "deepLink": "dineout://d_react?cName=app&screenName=welcomeScreen",
+      "titleText": "Win big by predicting scores \nfor Football World Cup'18",
+    "cta": {
+      "text": "Let's Play",
+      "enable": 1
+    },
+    "enable":1
+  }
+},
+"gPCollection":{
+  "data": [
+        {
+            "cardName": "Places to Celebrate",
+            "deeplink": "dineout://s?t=Places to Celebrate&q=",
+            "url": "delhi-restaurants/Places-to-Celebrate",
+            "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Oct/25/gp_placestoceleb.png"
+        },
+        {
+            "cardName": "Date Nights",
+            "deeplink": "dineout://s?t=Date Nights&q=",
+            "url": "delhi-restaurants/Date-Nights",
+            "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Oct/25/gp_datenight.png"
+        },
+        {
+            "cardName": "5 Star",
+            "deeplink": "dineout://s?t=5star&q=",
+            "url": "delhi-restaurants/5star",
+            "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Oct/25/gp_5star.png"
+        }
+    ]
+  },
+  "gp14Aug": {
+    "imgUrl":"https://im1.dineout.co.in/images/uploads/misc/2018/Aug/13/gourmet_passport-20_(1)_(1).jpg",
+    "bannerType": "large",
+    "deeplink":"dineout://d_react?screenName=GPScreen",
+    "isValidateCaching": true,
+    "banner_type": "app"
+  },
+  "gpBannerPurchase":"2018-08-15",
+  "variantBanner": {
+    "imgUrl":"https://im1.dineout.co.in/images/uploads/misc/2018/Aug/10/gpbanner.jpg",
+    "bannerType": "small",
+    "deeplink":"dineout://d_react?screenName=GPScreen",
+    "isValidateCaching": false,
+    "banner_type": "app"
+  },
+  "dineoutpayStreched": {
+    "headerText": "Get cashback on bill payments",
+    "subTitle": "Find top Dineout Pay restaurants based on type",
+      "data": [
+       {
+          "cardName": "Casual Dining",
+          "count": "",
+          "deeplink": "dineout://s?tag=Casual Dining&tag=Dineout Pay&",
+          "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Aug/27/casualdining.png"
+        },
+        {
+
+          "cardName": "Bar",
+          "count": "",
+          "deeplink": "dineout://s?tag=Bar&tag=Dineout Pay&",
+          "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Aug/27/bar.png"
+        },
+        {
+
+          "cardName": "",
+          "count": "",
+          "deeplink": "dineout://s?tag=Dineout Pay&tag=Buffet&",
+          "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Oct/31/buffet.png"
+        },
+        {
+          "cardName": "",
+          "count": "",
+          "deeplink": "dineout://s?tag=Lounge&tag=Dineout Pay&",
+          "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Aug/27/lounge.png"
+        },
+        {
+
+          "cardName": "Quick Bites",
+          "count": "",
+          "deeplink": "dineout://s?tag=Quick Bites&tag=Dineout Pay&",
+          "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Aug/27/quickbites.png"
+        },
+        {
+          "cardName": "Fine Dining",
+          "count": "",
+          "deeplink": "dineout://s?tag=Fine Dining&tag=Dineout Pay&",
+          "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Aug/27/finedine.png"
+        },
+         {
+
+          "cardName": "",
+          "count": "",
+          "deeplink": "dineout://s?tag=Cafe&tag=Dineout Pay&",
+          "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Aug/27/cafe.png"
+        },
+        {
+
+          "cardName": "Dessert",
+          "count": "",
+          "deeplink": "dineout://s?tag=Dessert&tag=Dineout Pay&",
+          "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Aug/27/dessert.png"
+        },
+        {
+          "cardName": "Takeaway",
+          "count": "",
+          "deeplink": "dineout://s?tag=Takeaway&tag=Dineout Pay&",
+          "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Aug/27/takeaway.png"
+        }
+
+      ]
+  },
+  "GirfDineoutpayStreched": {
+    "headerText": "GIRF Collection",
+    "subTitle": "Find restaurants with 50% Off deals based on type",
+      "data": [
+       {
+          "cardName": "Casual Dining",
+          "count": "",
+          "deeplink": "dineout://s?tag=Casual Dining&tag=Dineout Pay&dCategoryId=2&dCategoryId=3&dCategoryId=4&dCategoryId=5&dCategoryId=6&cCategoryId=10&groupId=1000&",
+          "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Aug/27/casualdining.png"
+        },
+        {
+
+          "cardName": "Bar",
+          "count": "",
+          "deeplink": "dineout://s?tag=Bar&tag=Dineout Pay&dCategoryId=2&dCategoryId=3&dCategoryId=4&dCategoryId=5&dCategoryId=6&cCategoryId=10&groupId=1000&",
+          "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Aug/27/bar.png"
+        },
+        {
+
+          "cardName": "",
+          "count": "",
+          "deeplink": "dineout://s?tag=Dineout Pay&tag=Buffet&dCategoryId=2&dCategoryId=3&dCategoryId=4&dCategoryId=5&dCategoryId=6&cCategoryId=10&groupId=1000&",
+          "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Oct/31/buffet.png"
+        },
+        {
+          "cardName": "",
+          "count": "",
+          "deeplink": "dineout://s?tag=Lounge&tag=Dineout Pay&dCategoryId=2&dCategoryId=3&dCategoryId=4&dCategoryId=5&dCategoryId=6&cCategoryId=10&groupId=1000&",
+          "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Aug/27/lounge.png"
+        },
+        {
+
+          "cardName": "Quick Bites",
+          "count": "",
+          "deeplink": "dineout://s?tag=Quick Bites&tag=Dineout Pay&dCategoryId=2&dCategoryId=3&dCategoryId=4&dCategoryId=5&dCategoryId=6&cCategoryId=10&groupId=1000&",
+          "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Aug/27/quickbites.png"
+        },
+        {
+          "cardName": "Fine Dining",
+          "count": "",
+          "deeplink": "dineout://s?tag=Fine Dining&tag=Dineout Pay&dCategoryId=2&dCategoryId=3&dCategoryId=4&dCategoryId=5&dCategoryId=6&cCategoryId=10&groupId=1000&",
+          "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Aug/27/finedine.png"
+        },
+         {
+
+          "cardName": "",
+          "count": "",
+          "deeplink": "dineout://s?tag=Cafe&tag=Dineout Pay&dCategoryId=2&dCategoryId=3&dCategoryId=4&dCategoryId=5&dCategoryId=6&cCategoryId=10&groupId=1000&",
+          "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Aug/27/cafe.png"
+        },
+        {
+
+          "cardName": "Dessert",
+          "count": "",
+          "deeplink": "dineout://s?tag=Dessert&tag=Dineout Pay&dCategoryId=2&dCategoryId=3&dCategoryId=4&dCategoryId=5&dCategoryId=6&cCategoryId=10&groupId=1000&",
+          "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Aug/27/dessert.png"
+        },
+        {
+          "cardName": "Takeaway",
+          "count": "",
+          "deeplink": "dineout://s?tag=Takeaway&tag=Dineout Pay&dCategoryId=2&dCategoryId=3&dCategoryId=4&dCategoryId=5&dCategoryId=6&cCategoryId=10&groupId=1000&",
+          "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Aug/27/takeaway.png"
+        }
+
+      ]
+  },
+  "homepageTabInfo":{
+      "header": "",
+      "subHeader": "",
+      "data": [
+       { 
+          "data":[
+            {
+              "title": "1+1 offers on Buffets, Food & Drinks",
+              "subtitle": "with your Gourmet Passport membership",
+              "deeplink": "dineout://d_react?screenName=GPScreen",
+              "colour": "#520F44",
+              "showAmnt":0,
+              "appendText":""
+            }
+          ]
+        },
+        { 
+          "data":[
+            {
+              "title": "Dineout Pay",
+              "subtitle": "20% cashback on bill payments at these restaurants",
+              "deeplink": "dineout://s?tag=Dineout Pay",
+              "colour": "#00c34e",
+              "showAmnt":1,
+              "appendText":" available"
+            }
+          ]
+        },
+        
+        {
+          "data":[  
+              {
+                "title": "Near You",
+                "subtitle": "Avail exciting offers",
+                "deeplink": "dineout://s?sortby=distanceASC",
+                "colour": "#f71d04",
+                "showAmnt":0,
+                "appendText":""
+              },
+              {
+                  "title": "5 Star Dining",
+                  "subtitle": "Enjoy the luxury",
+                  "deeplink": "dineout://s?tag=5 Star",
+                  "colour":"#f4ec04",
+                  "showAmnt":0,
+                  "appendText":""
+              }
+          ]
+        }
+      ]
+  },
+
+  "homepageTabInfo_part2":{
+      "header": "",
+      "subHeader": "",
+      "data": [
+       { 
+          "data":[
+            {
+              "title": "1+1 offers on Buffets, Food & Drinks",
+              "subtitle": "With a Gourmet Passport membership",
+              "deeplink": "dineout://d_react?screenName=GPScreen",
+              "colour": "#520F44",
+              "showAmnt":0,
+              "appendText":""
+            }
+
+          ]
+        },
+        { 
+          "data":[
+          
+            {
+              "title": "Dineout Pay",
+              "subtitle": "20% cashback on bill payments at these restaurants",
+              "deeplink": "dineout://s?tag=Dineout Pay",
+              "colour": "#00c34e",
+              "showAmnt":1,
+              "appendText":" available"
+            }
+
+          ]
+        },
+        
+        {
+          "data":[  
+              {
+                "title": "Near You",
+                "subtitle": "Avail exciting offers",
+                "deeplink": "dineout://s?sortby=distanceASC",
+                "colour": "#f71d04",
+                 "showAmnt":0,
+                 "appendText":""
+              },
+              {
+                  "title": "5 Star Dining",
+                  "subtitle": "Enjoy the luxury",
+                  "deeplink": "dineout://s?tag=5 Star",
+                  "colour":"#f4ec04",
+                  "showAmnt":0,
+                  "appendText":""
+              }
+          ]
+        }
+      ]
+    },"nonGpHomepageTabInfo":{
+      "header": "",
+      "subHeader": "",
+      "data": [
+        { 
+          "data":[
+            {
+              "title": "Dineout Pay",
+              "subtitle": "20% cashback on bill payments at these restaurants",
+              "deeplink": "dineout://s?tag=Dineout Pay",
+              "colour": "#00c34e",
+              "showAmnt":1,
+              "appendText":" available"
+            }
+          ]
+        },
+        {
+          "data":[  
+              {
+                "title": "Near You",
+                "subtitle": "Avail exciting offers",
+                "deeplink": "dineout://s?sortby=distanceASC",
+                "colour": "#f71d04",
+                "showAmnt":0,
+                "appendText":""
+              },
+              {
+                  "title": "5 Star Dining",
+                  "subtitle": "Enjoy the luxury",
+                  "deeplink": "dineout://s?tag=5 Star",
+                  "colour":"#f4ec04",
+                  "showAmnt":0,
+                  "appendText":""
+              }
+          ]
+        }
+      ]
+  },
+  "nonGpHomepageTabInfo_part2":{
+      "header": "",
+      "subHeader": "",
+      "data": [
+        { 
+          "data":[
+          
+            {
+              "title": "Dineout Pay",
+              "subtitle": "20% cashback on bill payments at these restaurants",
+              "deeplink": "dineout://s?tag=Dineout Pay",
+              "colour": "#00c34e",
+              "showAmnt":1,
+              "appendText":" available"
+            }
+
+          ]
+        },
+        {
+          "data":[  
+              {
+                "title": "Near You",
+                "subtitle": "Avail exciting offers",
+                "deeplink": "dineout://s?sortby=distanceASC",
+                "colour": "#f71d04",
+                 "showAmnt":0,
+                 "appendText":""
+              },
+              {
+                  "title": "5 Star Dining",
+                  "subtitle": "Enjoy the luxury",
+                  "deeplink": "dineout://s?tag=5 Star",
+                  "colour":"#f4ec04",
+                  "showAmnt":0,
+                  "appendText":""
+              }
+          ]
+        }
+      ]
+    }, 
+  "trendingOffers":{
+    "headerText": "Trending Offers",
+    "subTitle": "Discover restaurants offering top discounts and deals",
+    "data": [
       {
-        "hno": "A-141",
-        "sector": 26,
-        "pin": 201301
+        "cardname": "GP",
+        "count": "",
+        "deeplink": "dineout://d_react?screenName=GPScreen",
+        "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2019/Mar/14/gp_tile.jpg"
       },
       {
-        "hno": "A-142",
-        "sector": 19,
-        "pin": 201303
+        "cardname": "",
+        "count": "",
+        "deeplink": "dineout://s?tag=Super Savers",
+        "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Nov/22/super_saver.png"
+      },
+      {
+
+        "cardname": "",
+        "count": "",
+        "deeplink": "dineout://s?regularOfferTypes=More than 20% off Total Bill",
+        "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Oct/5/totalbill2.png"
+      },
+      {
+        "cardname": "Food",
+        "count": "",
+        "deeplink": "dineout://s?regularOfferTypes=More than 20% off Food",
+        "imgUrl": "https://st1.dineout-cdn.co.in/images/uploads/misc/2018/Oct/5/foodbill2.png"
+      },
+
+      {
+        "cardname": "Happy Hour",
+        "count": "",
+        "deeplink": "dineout://s?regularOfferTypes=Happy Hours&",
+        "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Oct/5/happyhours2.png"
+      },
+      {
+        "cardname": "Buffet",
+        "count": "",
+        "deeplink": "dineout://s?regularOfferTypes=1+1 on Buffet&regularOfferTypes=Weekend Brunch&regularOfferTypes=Other Buffet offers",
+        "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Oct/5/buffet2.png"
       }
+
     ]
-   }
+  },
+  "mobileTrendingOffers":{
+    "headerText": "Trending Offers",
+    "subTitle": "Discover restaurants offering top discounts and deals",
+    "data": [
+      {
+        "cardname": "Super Savers",
+        "count": "",
+        "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Nov/22/super_saver.png"
+      },
+      {
+        "cardname": "Happy Hours",
+        "count": "",
+        "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Oct/5/happyhours2.png"
+      },
+      {
+        "cardname": "Buffet",
+        "count": "",
+        "imgUrl": "https://im1.dineout.co.in/images/uploads/misc/2018/Oct/5/buffet2.png"
+      }
+
+    ]
+  },
+  "favButtonFooter": {
+    "enable": 1,
+    "viewColorBg":"#00c34e",
+    "circleColorBg":"#00a140",
+    "ViewTitleText":"Dineout Pay",   
+    "cta": {
+      "deepLink": "dineout://qr",
+      "url":"/scan_qr_to_pay"
+    }
+  },
+  "best2018":{
+    "headerText": "Best of 2018",
+    "subTitle": "Make 2018's last cheat meal count!",
+    "data": [
+      {
+        "cardName": "",
+        "count": "",
+        "deeplink": "dineout://s?tag=2018 Food Pick",
+        "imgUrl": "https://st1.dineout-cdn.co.in/images/uploads/mailer/2018/Dec/14/food.png"
+      },
+      {
+        "cardName": "Drink",
+        "count": "",
+        "deeplink": "dineout://s?tag=2018 Alcohol Pick",
+        "imgUrl": "https://st1.dineout-cdn.co.in/images/uploads/mailer/2018/Dec/14/drinks.png"
+      },
+      {
+        "cardName": "",
+        "count": "",
+        "deeplink": "dineout://s?tag=2018 Buffet Pick",
+        "imgUrl": "https://st1.dineout-cdn.co.in/images/uploads/mailer/2018/Dec/14/buffet.png"
+      }
+
+    ]
+  },
+  "navTab": [
+    {
+    "type": "home",
+    "displayName": "Explore",
+    "url": "nodeApi/v32/homePage/getHomePage",
+    "icon_url": "https://im1.dineout.co.in/images/uploads/misc/2019/Mar/15/home_gray.png",
+    "selected_icon_url": "https://im1.dineout.co.in/images/uploads/misc/2019/Mar/15/home_active.png",
+    "web_url":"/",
+    "title_text_color":"#9b9b9b",
+    "selected_title_text_color":"#fa5757"
+  },
+  {
+    "type": "search",
+    "displayName": "Search",
+    "url": "dineout://s?",
+    "icon_url": "https://im1.dineout.co.in/images/uploads/misc/2019/Mar/15/seacrh_gray.png",
+    "selected_icon_url": "https://im1.dineout.co.in/images/uploads/misc/2019/Mar/15/search_active.png",
+    "web_url":"/dineout-search",
+    "title_text_color":"#9b9b9b",
+    "selected_title_text_color":"#fa5757"
+  },{
+    "type": "predictandWin",
+    "displayName": "",
+    "url": "dineout://d_react?screenName=WelcomePage",
+    "icon_url": "http://d3cvsmwrugbz2e.cloudfront.net/ball_anim_pnw.gif",
+    "selected_icon_url": "http://d3cvsmwrugbz2e.cloudfront.net/ball_anim_pnw.gif",
+    "web_url":"",
+    "title_text_color":"",
+    "selected_title_text_color":""
+  },
+  {
+    "type": "gp",
+    "displayName": "Buy 1 Get 1",
+    "url": "dineout://d_react?screenName=GPScreen&hideBack=1",
+    "icon_url": "https://im1.dineout.co.in/images/uploads/misc/2019/Mar/15/gp_gray.png",
+    "selected_icon_url": "https://im1.dineout.co.in/images/uploads/misc/2019/Mar/15/gp_active.png",
+    "web_url":"/gourmet-passport",
+    "title_text_color":"#9b9b9b",
+    "selected_title_text_color":"#cfa73c"
+  },
+  
+  {
+    "type": "qrcode",
+    "displayName": "Pay Bill",
+    "url": "dineout://qr",
+    "icon_url": "https://im1.dineout.co.in/images/uploads/misc/2019/Mar/15/paybill_gray.png",
+    "selected_icon_url": "https://im1.dineout.co.in//images/uploads/misc/2019/Mar/15/paybill_active.png",
+    "web_url":"/scan_qr_to_pay",
+    "title_text_color":"#9b9b9b",
+    "selected_title_text_color":"#00c34e"
+  },
+  {
+    "type": "account",
+    "displayName": "Account",
+    "url": "",
+    "icon_url": "https://im1.dineout.co.in/images/uploads/misc/2019/Mar/18/account_gray.png",
+    "selected_icon_url": "https://im1.dineout.co.in/images/uploads/misc/2019/Mar/18/account_active.png",
+    "web_url":"/user-nav",
+    "title_text_color":"#9b9b9b",
+    "selected_title_text_color":"#fa5757"
+  }
+  ],
+  "predictOld": {
+    "imgUrl":"https://im1.dineout.co.in/images/uploads/misc/2019/Mar/25/static_old.jpg",
+    "bannerType": "large",
+    "deeplink":"dineout://webbrowser?link=https://bnc.lt/m/IS6Ip8HfgV",
+    "isValidateCaching": true
+  },
+  "predictNew": {
+    "imgUrl":"https://im1.dineout.co.in/images/uploads/misc/2019/Mar/25/static_new.jpg",
+    "bannerType": "large",
+    "deeplink":"dineout://d_react?screenName=WelcomePage",
+    "isValidateCaching": true
+  }
+
+}]
