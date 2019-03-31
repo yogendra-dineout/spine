@@ -1,4 +1,18 @@
 dineoutConfig: >
    [{
    "name": "yogendra",
+   "Skill": "Full stack Developer",
+    "JD": "14 Jan, 2019",
+    "address": [
+      {
+        "hno": "A-141",
+        "sector": 26,
+        "pin": 201301
+      },
+      {
+        "hno": "A-142",
+        "sector": 19,
+        "pin": 201303
+      }
+    ]
    }]
