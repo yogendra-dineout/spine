@@ -1,5 +1,5 @@
 dineoutConfig: >
-   '[{
+   [{
      "mainBanner": 10,
      "popularRestaurant": 3,
      "popularRestaurantWeb": 4,
@@ -42,4 +42,4 @@ dineoutConfig: >
             "iconUrl": "http://d3tfancs2fcmmi.cloudfront.net/assets/images/uploads/misc/2016/Jun/20/ic_rate_active.png",
             "inActiveIconUrl": "http://d3tfancs2fcmmi.cloudfront.net/assets/images/uploads/misc/2016/Jun/20/ic_rate.png"
 	      }]
-   }]'
+   }]
