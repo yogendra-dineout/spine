@@ -1,7 +1,6 @@
 {
-  "env": "development",
-  "application":"nodejs",
-  {
+    "env": "development",
+    "application":"nodejs",
     "menu": {
       "id": "file",
       "value": "File",
@@ -13,5 +12,4 @@
         ]
       }
     }
-  }
 }
