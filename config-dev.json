@@ -1,5 +1,5 @@
 {
-    "env": "development",
+    "env": "developmentqc1",
     "application":"nodejs",
     "menu": {
       "id": "file",
